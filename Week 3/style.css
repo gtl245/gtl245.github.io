@@ -1,0 +1,161 @@
+body {
+	font-family: Courier;
+}
+.musiciphone {
+	position: relative;
+}
+
+.iphone{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.next{
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.album{
+	position: absolute;
+    top: 45%;
+    left:48%;
+    transform: translate(-50%, -50%);
+}
+
+.musictext {
+	position: absolute;
+    top: 62%;
+    left:48%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+	color: white;
+	width: 270px;
+	font-size: 77%;
+
+}
+
+.music{
+	position: absolute;
+  	top: 25%;
+  	left: 41.5%;
+  	transform: translate(-50%, -50%);
+}
+
+.dance{
+	position: absolute;
+  	top: 35%;
+  	left: 47%;
+  	transform: translate(-50%, -50%);
+}
+
+.culture{
+	position: absolute;
+  	top: 45%;
+  	left: 42%;
+  	transform: translate(-50%, -50%);
+}
+
+.cultureiphone {
+	position: relative;
+}
+
+.japan{
+	position: absolute;
+  	height:  200%;
+  	width: 50%;
+    left: 0%;
+    top:10%;
+  	
+}
+.taiwan{
+  position: absolute;
+    height:  200%;
+    width: 50%;
+    right: 0%;
+    top:10%;
+    
+}
+
+.ciphone{
+  position: absolute;
+    left: 50%;
+    top:110%;
+    transform: translate(-50%, -50%);
+}
+
+.jname{
+  position: absolute;
+    left: 17%;
+    top: 60%;
+}
+
+.cname{
+  position: absolute;
+    right: 17%;
+    top: 30%;
+}
+
+#myHeader{
+	color: white;
+	width: 500px;
+	font-size: 130%;
+
+}
+
+.danceiphone {
+	position: relative;
+}
+
+.dancetext{
+	position: absolute;
+  	top: 48%;
+  	left: 48%;
+  	transform: translate(-50%, -50%);
+}
+
+.vid1{
+	position: absolute;
+  	top: 25%;
+  	left: 7%;
+}
+
+.vid2{
+	position: absolute;
+  	top: 60%;
+  	left: 7%;
+}
+
+.vid3{
+	position: absolute;
+  	top: 60%;
+  	right: 7%;
+}
+
+.vid4{
+	position: absolute;
+  	top: 25%;
+  	right: 7%;
+} 
+
+.me{
+	position: absolute;
+  	top: 3%;
+  	left: 8%;
+} 
+.others{
+	position: absolute;
+  	top: 3%;
+  	right: 7%;
+
+}
+
+h1 {
+	color: rgb(250,161,149);
+
+}
