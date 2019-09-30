@@ -1,0 +1,22 @@
+body {
+	font-family: Courier;
+  background-color: #AFEEEE
+  
+}
+
+.OUH {
+  float: right;
+  margin-right: 15px;
+  width: 420px;
+  border-radius: 5px;
+  
+  padding: 1em;
+}
+.friend {
+  float: left;
+  margin-right: 15px;
+  width: 320px;
+  border-radius: 5px;
+
+  padding: 1em;
+}
