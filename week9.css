@@ -7,7 +7,7 @@ p {
 }
 
 body {
-  animation: 8000ms ease-in-out infinite color-change;
+  animation: 10000ms ease-in-out infinite color-change;
 }
 
 @keyframes color-change {
@@ -17,7 +17,6 @@ body {
   20% {
     background-color: #E75480;
 	}
-  
   40% {	
 	background-color: #708090;
 	  }
