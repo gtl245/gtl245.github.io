@@ -7,7 +7,7 @@ p {
 }
 
 body {
-  animation: 10000ms ease-in-out infinite color-change;
+  animation: 8000ms ease-in-out infinite color-change;
 }
 
 @keyframes color-change {
@@ -15,16 +15,18 @@ body {
     background-color: teal;
   }
   20% {
-    background-color: gold;
-  }
-  40% {
-    background-color: indianred;
-  }
+    background-color: #E75480;
+	}
+  
+  40% {	
+	background-color: #708090;
+	  }
+ 
   60% {
-    background-color: violet;
+    background-color: #9370DB;
   }
   80% {
-    background-color: green;
+    background-color: #2F4F4F;
   }
   100% {
     background-color: teal;
