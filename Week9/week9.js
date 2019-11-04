@@ -2,7 +2,9 @@ var switchtxt  = 1;
 var switchfont = 1;
 var pQuery = document.querySelector("p");
 
-document.addEventListener('keydown', theEvent => {
+document.addEventListener('keydown', changefont)
+
+function changefont(theEvent){
   if (theEvent.keyCode === 32 && switchfont === 1) {
   	switchfont = 0;
     pQuery.style.fontFamily = "georgia";
@@ -11,7 +13,7 @@ document.addEventListener('keydown', theEvent => {
   	switchfont = 1;
     pQuery.style.fontFamily = "courier";
   }
-})
+}
 
 
 var txtbutton = document.querySelector("#button");
