@@ -8,6 +8,7 @@ p {
 
 body {
   animation: 10000ms ease-in-out infinite color-change;
+  
 }
 
 @keyframes color-change {
@@ -34,4 +35,13 @@ body {
 
 h1 {
 	color: white;
+}
+
+button {
+    color: white;
+    font-family: courier;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #214569; 
 }
