@@ -55,7 +55,7 @@ p {
   left: 0;
     position:absolute;
     text-align:center;
-    top: 5px;
+    top: 33%;
     width: 100%
 
 }
@@ -83,7 +83,7 @@ p {
 
 .light {
   position: absolute;
-  top: 25%;
+  top: 33%;
   left: 10%;
   
   animation: fadeIn 1.5s infinite alternate;
@@ -91,14 +91,14 @@ p {
 
 .light1 {
   position: absolute;
-  top: 35%;
+  top: 17%;
   left: 33%;
   
   animation: fadeIn 1s infinite alternate;
 }
 .light2 {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 60%;
   
   animation: fadeIn 2s infinite alternate;
@@ -110,4 +110,3 @@ p {
   
   animation: fadeIn 1.3s infinite alternate;
 }
-
