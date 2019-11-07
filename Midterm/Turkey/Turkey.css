@@ -1,0 +1,77 @@
+
+body {
+	background-color: #d98696;
+	}
+
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('DK Rabbit On The Moon.otf') format('opentype');
+}
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+h1 {
+  font-family: 'MyFont';
+  color: white;
+  opacity: 0; 
+  animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
+  font-size: 400%;
+}  
+
+h2 {
+  font-family: 'MyFont';
+  color: #fdfbbe;
+  opacity: 0; 
+  animation: fadeInUp 1.5s ease-in-out 0s forwards;
+  font-size: 250%;
+  width: 85%;
+}  
+
+
+.Country {
+  left: 0;
+    position:absolute;
+    text-align:center;
+    top: 10px;
+    width: 100%
+
+}
+
+
+
+
+p {
+  font-family: 'MyFont';
+  color: #af475c;
+  opacity: 0; 
+  animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
+  font-size: 150%;
+  width: 70%;
+}
+
+
+
+
+.Absolute-Center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}  
+
+
