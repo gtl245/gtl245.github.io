@@ -3,10 +3,7 @@
   z-index: -3;
   left:0;
 }
-html, body {margin: 0; 
-	height: 100%; 
-	overflow: hidden;
-	}
+
 body {
 	background-color: #314860;
   	animation: 10000ms ease-in-out infinite opacity-change;
