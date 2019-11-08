@@ -10,8 +10,6 @@ body {
 }
 
 
-
-
 @font-face {
   font-family: 'MyFont';
   src: url('DK Rabbit On The Moon.otf') format('opentype');
@@ -135,4 +133,9 @@ p {
 @keyframes parallax_tree {  
   0% { background-position: 0px 100%;} 
   100% {background-position: -2700px 100%; } 
+}
+
+
+html, body {
+  overflow: hidden;
 }
