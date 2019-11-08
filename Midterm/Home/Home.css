@@ -1,4 +1,8 @@
-
+.forest{
+  position: absolute;
+  z-index: -3;
+  left:0;
+}
 
 body {
   background-color: #314860;
@@ -61,7 +65,8 @@ p {
 }
 
 .deer{
-  position: absolute;
+    z-index: -2;
+    position: absolute;
     top: 80%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -109,4 +114,24 @@ p {
   left: 75%;
   
   animation: fadeIn 1.3s infinite alternate;
+}
+
+
+.movingTree{
+  background:  url(https://i.ibb.co/y8Mjwbj/Parallax-copy.png) 0 100% no-repeat;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+}
+
+.movingTree {
+  animation: parallax_tree linear 35s infinite both;
+}
+
+@keyframes parallax_tree {  
+  0% { background-position: 0px 100%;} 
+  100% {background-position: -2700px 100%; } 
 }
