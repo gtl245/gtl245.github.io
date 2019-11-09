@@ -1,9 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-image: url('PurpleForest.jpg');
-	background-color: #314860;
+  background-color: #314860;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   animation: 10000ms ease-in-out infinite opacity-change;
 	}
-
 
 @font-face {
   font-family: 'MyFont';
@@ -116,7 +124,3 @@ h1:hover{
   100% {background-position: -2700px 100%; } 
 }
 
-
-html, body {
-  overflow: hidden;
-}
