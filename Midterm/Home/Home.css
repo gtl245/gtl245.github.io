@@ -5,6 +5,12 @@ html, body {
   overflow: hidden;
 }
 
+html, .movingTree {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-image: url('PurpleForest.jpg');
   background-color: #314860;
@@ -108,6 +114,8 @@ h1:hover{
 
 .movingTree{
   background:  url(https://i.ibb.co/y8Mjwbj/Parallax-copy.png) 0 100% no-repeat;
+  background-size:cover;
+  background-repeat: no-repeat;
   z-index: -1;
   position: absolute;
   left: 0;
