@@ -89,6 +89,13 @@ h1:hover{
   animation: fadeIn 1.5s infinite alternate;
 }
 
+.light:hover{
+  top:32%;
+  left:9%;
+  width:15%;
+
+}
+
 .light1 {
   position: absolute;
   top: 17%;
@@ -96,6 +103,14 @@ h1:hover{
   
   animation: fadeIn 1s infinite alternate;
 }
+
+.light1:hover{
+  top:16%;
+  left:32%;
+  width:15%;
+
+}
+
 .light2 {
   position: absolute;
   top: 10%;
@@ -103,12 +118,28 @@ h1:hover{
   
   animation: fadeIn 2s infinite alternate;
 }
+
+
+.light2:hover{
+  top:9%;
+  left:59%;
+  width:15%;
+
+}
+
 .light3 {
   position: absolute;
   top: 42%;
   left: 75%;
   
   animation: fadeIn 1.3s infinite alternate;
+}
+
+.light3:hover{
+  top:41%;
+  left:74%;
+  width:15%;
+
 }
 
 
