@@ -28,7 +28,7 @@ h1 {
   color: #f0eaa6;
   opacity: 0; 
   animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
-  font-size: 10vw;
+  font-size: 9vw;
 }  
 h1:hover{
 
