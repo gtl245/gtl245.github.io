@@ -28,26 +28,8 @@ h1 {
   color: #f0eaa6;
   opacity: 0; 
   animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
-  font-size: 600%;
+  font-size: 8vw;
 }  
-
-h2 {
-  font-family: 'MyFont';
-  color: #fdfbbe;
-  opacity: 0; 
-  animation: fadeInUp 1.5s ease-in-out 0s forwards;
-  font-size: 250%;
-  width: 85%;
-}  
-
-p {
-  font-family: 'MyFont';
-  color: #af475c;
-  opacity: 0; 
-  animation: fadeInUp 3s ease-in-out 1.5s forwards;
-  font-size: 150%;
-  width: 70%;
-}
 
 .Country {
   left: 0;
