@@ -30,6 +30,10 @@ h1 {
   animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
   font-size: 10vw;
 }  
+h1:hover{
+
+    color: #7d8bdd;
+  }
 
 .Country {
   left: 0;
