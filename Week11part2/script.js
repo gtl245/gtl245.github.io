@@ -1,5 +1,3 @@
-
-//For adjectives
 $('#badj').click(function() {
   var adj = $('#adj').val();
   
