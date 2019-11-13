@@ -1,0 +1,50 @@
+p {
+	font-size: 17px;
+	width: 900px;
+}
+
+body{
+	background-color: #0c2331;
+	color: white;
+	font-family: courier;
+}
+
+h1{
+	font-family: Georgia;
+}
+
+input {
+  display: block;
+  margin-left: : 200px;
+  margin-right: : 200px;
+  width: auto;
+}
+
+#bnoun1 {
+    color: white;
+    font-family: courier;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #28818e; 
+}
+
+
+#bnoun2 {
+    color: white;
+    font-family: courier;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #28818e; 
+}
+
+
+#badj {
+    color: white;
+    font-family: courier;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #28818e; 
+}
