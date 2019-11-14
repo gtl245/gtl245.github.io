@@ -7,13 +7,10 @@ $('#badj').click(function() {
 
 
 $('#bnoun1').click(function() {
-  var wnoun = $('#noun1').val();
-
-  $('#inputNoun').text(wnoun);
+  $('#inputNoun').text($('#noun1').val());
 });
 
 
 $('#bnoun2').click(function() {
-  var wnoun2 = $('#noun2').val();
-  $('#inputNoun2').text(wnoun2);
+  $('#inputNoun2').text($('#noun2').val());
 });
