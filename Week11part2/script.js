@@ -1,8 +1,7 @@
 
 
 $('#badj').click(function() {
-  var adj = $('#adj').val();
-  $('#inputAdj').text(adj);
+  $('#inputAdj').text($('#adj').val());
   
 });
 
