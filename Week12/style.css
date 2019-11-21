@@ -1,0 +1,157 @@
+body {
+	font-family: Courier;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+
+
+.homephone{
+        display: inline-block;
+        position: relative;
+        margin: 0 auto;
+        width: 100vw;
+      
+}
+
+#phonebg{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+p {
+  color: white;
+  width: 20vw;
+  font-size: 1.5vw;
+
+}
+h1 {
+  color: rgb(250,161,149);
+
+}
+
+.parts{
+    font-size: 1.5vw;
+    position: absolute;
+    transition: 0.3s; 
+    display: block;
+    transform: translateX(-50%) translateY(0%)
+}
+
+.bparts{
+    font-size: 2.5vw;
+    position: absolute;
+    transition: 0.3s; 
+    display: block;
+    transform: translateX(-50%) translateY(0%)
+}
+
+.mparts{
+    font-size: 10vw;
+    position: absolute;
+    transition: 0.3s; 
+    display: block;
+    transform: translateX(-50%) translateY(0%)
+}
+
+
+#music{
+  left: 39.5%;
+    top: 25%;
+}
+
+#dance{
+    top: 37.5%;
+    left: 46.5%;
+}
+
+#culture{
+    top: 48%;
+    left: 40.5%;
+}
+
+#me{
+  top:85%;
+  left:49%;
+}
+
+#text{
+  left:48.5%;
+  top:47%;
+}
+
+#dtext{
+  left:47.5%;
+  top:10%;
+  font-size: 1vw;
+}
+
+.vid1{
+ position: absolute;
+  width: 25vw;
+  height:15vw;
+    top: 13%;
+    left: 4%;
+}
+
+.vid2{
+  position: absolute;
+  width: 25vw;
+  height:15vw;
+    top: 57%;
+    left: 4%;
+}
+
+.vid3{
+   position: absolute;
+  width: 25vw;
+  height:15vw;
+    top: 57%;
+    right: 4%;
+}
+
+.vid4{
+   position: absolute;
+  width: 25vw;
+  height:15vw;
+    top: 13%;
+    right: 4%;
+} 
+
+#itext{
+  left: 15%;
+    top: 0%;
+}
+
+#atext{
+  right: -6%;
+    top: 0%;
+}
+
+#htext{
+  left:48.5%;
+  top:-10%;
+}
+
+#mtext{
+  left:30%;
+  top:30%;
+}
+
+
+html, .bubble {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+button {
+    color: white;
+    font-family: courier;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #214569; 
+}
