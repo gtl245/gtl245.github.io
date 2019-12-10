@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+body {
+  background-image: url('2.jpg');
+  background-color: #314860;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  animation: 10000ms ease-in-out infinite opacity-change;
+  }
+
+.Absolute-Center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('Stupid Meeting_D.otf') format('opentype');
+}
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+} 
+h1 {
+  font-family: 'MyFont';
+  color: #D3DACE;
+  opacity: 0; 
+  animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
+  font-size: 2vw;
+} 
+h2 {
+  font-family: 'MyFont';
+  color: white;
+  opacity: 0; 
+  animation: fadeInUp 2s ease-in-out 1s forwards;
+  font-size: 2vw;
+  width: 85%;
+}
+
+p {
+  font-family: 'MyFont';
+  color: white;
+  opacity: 0; 
+  animation: fadeInUp 2s ease-in-out 0s forwards;
+  font-size: 1.4vw ;
+  width: 30%;
+}
+
+.des{
+  left:60%;
+    position:absolute;
+    text-align:center;
+    top: 40%;
+    width: 30%
+}
+
+
+.next{
+  right:-40%;
+    position:absolute;
+    text-align:center;
+    bottom: 10%;
+    width: 100%
+
+}
