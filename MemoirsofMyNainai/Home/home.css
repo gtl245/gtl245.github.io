@@ -84,6 +84,15 @@ h2:hover{
     color: #df987f;
   }
 
+p {
+  font-family: 'MyFont';
+  color: white;
+  opacity: 0; 
+  animation: fadeInUp 2s ease-in-out 0s forwards;
+  font-size: 1.7vw ;
+  width: 30%;
+  letter-spacing: 0.07em;
+}
 
  /* text & link placements */
 
