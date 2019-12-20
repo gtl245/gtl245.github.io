@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+
+body {
+  background-image: url('HomeBg.jpg');
+  background-color: #314860;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  animation: 10000ms ease-in-out infinite opacity-change;
+  }
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('Stupid Meeting_D.otf') format('opentype');
+
+}
+
+
+/* text animation */
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.Absolute-Center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+
+/* font attributes */
+
+h1 {
+  font-family: 'MyFont';
+  color: #D3DACE;
+  opacity: 0; 
+  animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
+  font-size: 10vw;
+} 
+
+h2 {
+  font-family: 'MyFont';
+  color: #D3DACE;
+  opacity: 0; 
+  animation: fadeInUp 2.5s ease-in-out 1.5s forwards;
+  font-size: 4vw;
+}  
+h3 {
+  font-family: 'MyFont';
+  color: #D3DACE;
+  opacity: 0; 
+  animation: fadeInUp 2.5s ease-in-out 2.5s forwards;
+  font-size: 4vw;
+}  
+
+h2:hover{
+
+    color: #df987f;
+  }
+
+  h3:hover{
+
+    color: #df987f;
+  }
+
+
+ /* text & link placements */
+
+.Title {
+    left: -25%;
+    position:absolute;
+    top: 40%;
+    width: 100%
+
+}
+  .about {
+  left: 40%;
+    position:absolute;
+    top: 80%;
+    width: 100%
+
+}
+
+.start{
+   left: 40%;
+    position:absolute;
+    top: 70%;
+    width: 100%
+}
+
+
+/* jade picture placement*/
+
+.jade{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+}
