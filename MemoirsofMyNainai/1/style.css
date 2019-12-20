@@ -1,0 +1,134 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+body {
+    background-color: #2d4c62;
+  background-image: url('1b.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  animation: 10000ms ease-in-out infinite opacity-change;
+  overflow: hidden;
+}
+
+
+/* parallax elements */
+.pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+#pic-1 {
+
+  background-image: url('1.png');
+}
+
+
+.Absolute-Center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} 
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('Silent Echo DEMO.otf') format('opentype');
+  letter-spacing: 0.3em;
+}
+
+
+/* text animation */
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+} 
+
+/* text attributes */
+
+h1 {
+  font-family: 'MyFont';
+  color: #D3DACE;
+  opacity: 0; 
+  animation: fadeInUp 2.5s ease-in-out 0.5s forwards;
+  font-size: 5vw;
+  letter-spacing: 0.07em;
+} 
+h2 {
+  font-family: 'MyFont';
+  color: white;
+  opacity: 0; 
+  animation: fadeInUp 2s ease-in-out 1s forwards;
+  font-size: 3vw;
+  width: 85%;
+  letter-spacing: 0.07em;
+}
+h2:hover{
+
+    color: #df987f;
+  }
+
+p {
+  font-family: 'MyFont';
+  color: white;
+  opacity: 0; 
+  animation: fadeInUp 2s ease-in-out 0s forwards;
+  font-size: 1.7vw ;
+  width: 30%;
+  letter-spacing: 0.07em;
+}
+
+/* text and link placements */
+
+.nai{
+  left:35%;
+    position:absolute;
+    text-align:center;
+    top: 72%;
+    width: 30%
+}
+
+.mom{
+left:65%;
+    position:absolute;
+    text-align:center;
+    top: 65%;
+    width: 30%
+}
+
+.dad{
+left:8%;
+    position:absolute;
+    text-align:center;
+    top: 65%;
+    width: 30%
+}
+
+
+.next{
+  right:-40%;
+    position:absolute;
+    text-align:center;
+    bottom: 0%;
+    width: 100%
+
+}
