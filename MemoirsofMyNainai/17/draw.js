@@ -19,7 +19,7 @@ function draw() {
   var galaxy = { 
   locationX : random(width),
   locationY : random(height),
-  size : random(windowWidth/180, windowHeight/250)
+  size : random(windowWidth/140, windowHeight/250)
 }
   ellipse(mouseX ,mouseY, galaxy.size, galaxy.size);
   ellipse(galaxy.locationX ,galaxy.locationY, galaxy.size, galaxy.size);
