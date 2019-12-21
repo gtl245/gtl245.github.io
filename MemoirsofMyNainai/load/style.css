@@ -1,3 +1,5 @@
+/* code modified from https://codepen.io/shelvinsworld/pen/povNVvp */
+
 body {
   height: 100%;
   width: 100%;
@@ -10,6 +12,8 @@ body {
   font-family: 'MyFont';
   src: url('Silent Echo DEMO.otf') format('opentype');
 }
+
+/* text attributes */
 
 .text-container {
   width: 100%;
@@ -49,6 +53,9 @@ h1:hover{
     color: #df987f;
   }
 
+
+/* text animation */
+
 .reg-text {
   -webkit-transform: translateY(100px);
           transform: translateY(100px);
@@ -62,6 +69,8 @@ h1:hover{
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
+
+/* animating each letter of "nai nai" */
 
 .letter {
   transition: opacity 5s ease, -webkit-transform 5s cubic-bezier(0.43, 0.1, 0.57, 0.9), -webkit-filter 5s ease;
