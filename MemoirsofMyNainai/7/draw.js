@@ -14,7 +14,7 @@ function draw() {
   if (mouseIsPressed) {
     stroke(255);
   } else {
-    stroke('#7797b0');
+    stroke('#335e82');
   }
 
 /* draws crosses */
